@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="20.129">
+    <testcase classname="Search and place order for vegetables" name="Search for items and then move to checkout page" time="10.45">
+        <system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User serached for Brinjal vegetables...................................passed
+And Added itmes to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then verify selected Brinjal items are displayed in checkout page...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search and place order for vegetables" name="Search for items and then move to checkout page 2" time="9.492">
+        <system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User serached for Beetroot vegetables..................................passed
+And Added itmes to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then verify selected Beetroot items are displayed in checkout page..........passed
+]]></system-out>
+    </testcase>
+</testsuite>
